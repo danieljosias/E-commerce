@@ -1,0 +1,22 @@
+/*estilização footer*/
+
+.container-rodape{
+    border: 1px solid orange;
+    background-color: black;
+    height: 50px;
+    
+}
+
+.text-rodape{
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+}
+
+.text-rodape > p {
+    color:orange;
+    font-weight: 700;
+    font-size: 20pt;
+
+    margin-top: 12px;
+}

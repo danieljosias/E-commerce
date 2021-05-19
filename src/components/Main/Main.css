@@ -1,0 +1,117 @@
+.container-principal{
+    background-color: orange;
+}
+
+.text-principal{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.text-principal > p{
+    font-size: 16pt;
+    text-align: center;
+    background-color: black;
+    color:orange;
+    padding: 10px;
+}
+
+.text-principal > h1{
+    text-align: center;
+    background-color: black;
+    color:orange;
+    padding: 10px;
+    font-size: 16pt;
+}
+
+.card-principal{
+
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+}
+
+.card3{
+    border: 1px solid black;
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.card-inner3 > img{
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+    
+}
+
+.card-inner3 > img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+.card-inner3 > h2{
+   text-align: center;
+}   
+
+.card-inner3 > p{
+    color: green;
+    font-weight: 700;
+    text-align: center;
+    
+
+}   
+
+.card-inner3 > p > strike{
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+
+.container-marcas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px
+}
+
+.title-marcas{
+    text-align: center;
+    background-color: black;
+    color:orange;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.title-marcas::after{
+    content: ' <';
+}
+
+.title-marcas::before{
+    content: '> ';
+}
+
+
+.marcas{
+    width: 267px;
+    height: 200px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.marcas-inner > img{
+    width: 250px;
+    height: 180px; 
+    filter:grayscale(110%);
+}
+
+.marcas-inner > img:hover{
+    cursor: pointer;
+    transform: scale(1.1) 
+}

@@ -1,0 +1,63 @@
+.container-principal{
+    border: 1px solid orange;
+}
+.title-card{
+    text-align: center;
+    background-color: black;
+    color:orange;
+    padding: 10px;
+}
+
+.title-card::after{
+    content: ' <';
+}
+
+.title-card::before{
+    content: '> ';
+}
+
+.main-card{
+    background-color: orange;
+}
+
+.card{
+    text-align: center;
+    height: 550px;
+}
+
+.card-inner > img{
+    width: 700px; 
+    height: 500px;
+    margin-top: 25px;
+    margin-bottom: -100px;   
+    border-radius: 15px;
+    background-color: rgba(255,255,255, .2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.card-inner > p{
+    font-size: 15pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+button{
+    border-radius: 15px;
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+
+    background-color: orange;
+
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: black;
+    cursor: pointer;
+    color: orange;
+}
+
+
+
