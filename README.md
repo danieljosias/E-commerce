@@ -1,5 +1,8 @@
 # React Shoes
 ## Dessa vez decidir criar um #E-commerce de calçados e a tecnologia utilizada foi o #React JS
+## Estruturação: HTML
+## Estilização: CSS
+
 
 <img src="src/img/readme1.png" />
 <br/>
